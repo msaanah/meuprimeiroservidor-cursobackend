@@ -40,7 +40,7 @@ async function criaMulher(request, response) {
      console.log(erro)
     }
 }
-   // PATCH  para corrigir uma informação. Não é incluir, irei alterar algo inserido
+   // PATCH  para corrigir ou seja alterar uma informação. Não é incluir, irei alterar algo inserido
 async function corrigeMulher (request, response) {
     try {
         const mulherEncontrada = await Mulher.findById(request.params.id)
